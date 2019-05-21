@@ -1,6 +1,6 @@
 package org.protor.sandbox.riccio;
 
-public enum MyVehicleType {
+public enum EnumVehicleType {
 	AERIAL,
 	TERRESTRIAL,
 	MARINE
