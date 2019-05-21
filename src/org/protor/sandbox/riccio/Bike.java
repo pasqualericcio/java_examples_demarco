@@ -1,5 +1,5 @@
 package org.protor.sandbox.riccio;
 
-public class File {
+public class Bike {
 
 }
