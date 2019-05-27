@@ -2,13 +2,9 @@ package org.protor.sandbox.riccio;
 
 import java.io.File;
 
-import org.protor.sandbox.agodemar.AbstractVehicle;
-import org.protor.sandbox.agodemar.EnumEngineType;
-import org.protor.sandbox.agodemar.EnumGroundContactType;
-
 public abstract class AbstractTerrestrialVehicle extends AbstractVehicle {
 	
-	private EnumGroundContactType groundContactType = EnumGroundContactType.WHEELS;
+	protected EnumGroundContactType groundContactType = EnumGroundContactType.WHEELS;
 
 	public AbstractTerrestrialVehicle(EnumEngineType engineType) {
 		super(engineType);

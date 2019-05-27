@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicles>
+<!-- List of cars -->
+	<cars>
+		<car>
+			<name value = "BMW X1" />
+			<range value ="500.0" value ="1200" />
+			
+		</car>
+		<car>
+		<name> Nissan X-Trail </name>
+		<name> Fiat 500 </name>
+		<range> 500.0 </range>
+		
+		</car>
+	</cars>
+	<!-- List of ships -->
+	<ships>
+	
+	</ships>
+	</vehicles>

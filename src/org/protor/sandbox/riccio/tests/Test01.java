@@ -3,10 +3,10 @@ package org.protor.sandbox.riccio.tests;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.protor.sandbox.agodemar.AbstractVehicle;
-import org.protor.sandbox.agodemar.Car;
-import org.protor.sandbox.agodemar.EnumEngineType;
-import org.protor.sandbox.agodemar.EnumGroundContactType;
+import org.protor.sandbox.riccio.Car;
+import org.protor.sandbox.riccio.EnumEngineType;
+import org.protor.sandbox.riccio.EnumGroundContactType;
+
 
 public class Test01 {
 
@@ -32,13 +32,13 @@ public class Test01 {
 		Car car2 = new Car(EnumEngineType.THERMICAL);
 		car2.setName("BMW X1");
 
-//		System.out.println(car1.toString());
-//		System.out.println(car2);
+		//		System.out.println(car1.toString());
+		//		System.out.println(car2);
 
 		System.out.println("--------------------------");
 
 		List<Car> list = new ArrayList<Car>();
-		
+
 		list.add(car1);
 		list.add(car2);
 		list.add(
@@ -48,14 +48,12 @@ public class Test01 {
 						500.0, 4.5,  4, 500.0, EnumGroundContactType.WHEELS
 						)
 				);
-		
+
 		for(Car c : list) {
 			System.out.println(c);
 		}
 
-
-
-
 	}
+
 
 }
