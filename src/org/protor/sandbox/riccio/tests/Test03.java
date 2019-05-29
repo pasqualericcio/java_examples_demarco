@@ -119,7 +119,7 @@ public class Test03 {
 
 				// TASK: CREATE AN OBJECT OF CLASS CAR...
 
-				Car car = new Car (???? che ci va qua d
+				//Car car = new Car (???? che ci va qua d
 
 			} catch (ParserConfigurationException e) {
 

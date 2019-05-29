@@ -52,8 +52,8 @@ public class Car extends AbstractTerrestrialVehicle {
 		
 		if (node.getNodeType() == Node.ELEMENT_NODE) {
 
-			this.name = XMLUtils.getXMLPropertyByPath(node, "//name/text()");
 
+			this.name = XMLUtils.getXMLPropertyByPath(node, "//name/text()");
 			List<String> passengersValuesList = XMLUtils.getXMLAttributesByPath(
 					node, "//passengers", "value");
 

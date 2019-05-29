@@ -2,6 +2,8 @@ package org.protor.sandbox.riccio;
 
 import java.io.File;
 
+import org.w3c.dom.Node;
+
 public abstract class AbstractTerrestrialVehicle extends AbstractVehicle {
 	
 	protected EnumGroundContactType groundContactType = EnumGroundContactType.WHEELS;
@@ -30,6 +32,10 @@ public abstract class AbstractTerrestrialVehicle extends AbstractVehicle {
 			EnumGroundContactType groundContactType) {
 		super(name, engineType, range, endurance, numMaxPassengers, maxPayload);
 		this.groundContactType = groundContactType;
+	}
+	
+	public AbstractTerrestrialVehicle(Node node) {
+		super(node);
 	}
 	
 	public EnumGroundContactType getGroundContactType() {
