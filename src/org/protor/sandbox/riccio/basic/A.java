@@ -15,7 +15,16 @@ public class A {
 		this.s = s;
 	}
 
+public A() {
+	initialize();
 
+}
+	private void initialize() {
+		this.i=0;
+		this.d=0.0;
+		this.s="Preside!";
+		
+	}
 	
 	public int getI() {
 		return i;
@@ -44,6 +53,11 @@ public class A {
 
 	public void setS(String s) {
 		this.s = s;
+	}
+
+	@Override
+	public String toString() {
+		return "A [i=" + i + ", d=" + d + ", s=" + s + "]";
 	}
 
 }
