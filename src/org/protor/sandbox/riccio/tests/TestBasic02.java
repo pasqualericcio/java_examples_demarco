@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.protor.sandbox.riccio.basic.C;
+import org.protor.sandbox.riccio.basic.ToyC;
 
 public class TestBasic02 {
 
@@ -28,7 +29,18 @@ public class TestBasic02 {
 		
 		
 		System.out.println(c2);
+		
+		System.out.println("---------------------");
+		
+		List<C> nodes = new ArrayList<C>();
+		nodes.add(c1);
+		nodes.add(c2);
+		
+		ToyC tc = new ToyC();
+		List<Double> numbers = tc.calculate1a(nodes, -20, 89.5);
+		tc.setInnerList(numbers);
 
+		System.out.println(tc);
 	}
 
 }
